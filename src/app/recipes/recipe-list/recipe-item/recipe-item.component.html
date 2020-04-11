@@ -1,0 +1,14 @@
+<a  [routerLink]="[index]" routerLinkActive="active" style="text-decoration: none; cursor: pointer;">
+    <mat-card style="width: 300px;">
+        <mat-card-header>
+            <div class="col-sm-6">
+                <img [src]="recipe.imagePath" alt="{{ recipe.name }}" class="img-responsive pull-right" style="max-width: 50px;">
+            </div>
+                <mat-card-title>{{recipe.name}}</mat-card-title>
+        </mat-card-header>
+        <mat-card-content>
+            <p>{{recipe.description}}</p>
+        </mat-card-content>
+      </mat-card>
+</a>
+
