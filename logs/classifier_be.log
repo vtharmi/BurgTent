@@ -1,0 +1,590 @@
+[2020-04-14T20:56:47.671] [ERROR] book - Error in registering Error: Illegal arguments: undefined, number
+    at _async (/Users/thami/AngularProjects/ProOne/BurgTent/node_modules/bcryptjs/dist/bcrypt.js:214:46)
+    at /Users/thami/AngularProjects/ProOne/BurgTent/node_modules/bcryptjs/dist/bcrypt.js:223:17
+    at new Promise (<anonymous>)
+    at Object.bcrypt.hash (/Users/thami/AngularProjects/ProOne/BurgTent/node_modules/bcryptjs/dist/bcrypt.js:222:20)
+    at /Users/thami/AngularProjects/ProOne/BurgTent/server/server.js:48:38
+    at Layer.handle [as handle_request] (/Users/thami/AngularProjects/ProOne/BurgTent/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/thami/AngularProjects/ProOne/BurgTent/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/thami/AngularProjects/ProOne/BurgTent/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/thami/AngularProjects/ProOne/BurgTent/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/thami/AngularProjects/ProOne/BurgTent/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/thami/AngularProjects/ProOne/BurgTent/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/thami/AngularProjects/ProOne/BurgTent/node_modules/express/lib/router/index.js:275:10)
+    at urlencodedParser (/Users/thami/AngularProjects/ProOne/BurgTent/node_modules/body-parser/lib/types/urlencoded.js:82:7)
+    at Layer.handle [as handle_request] (/Users/thami/AngularProjects/ProOne/BurgTent/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/thami/AngularProjects/ProOne/BurgTent/node_modules/express/lib/router/index.js:317:13)
+    at /Users/thami/AngularProjects/ProOne/BurgTent/node_modules/express/lib/router/index.js:284:7
+[2020-04-14T20:58:47.668] [ERROR] book - Error in registering Error: Illegal arguments: undefined, number
+    at _async (/Users/thami/AngularProjects/ProOne/BurgTent/node_modules/bcryptjs/dist/bcrypt.js:214:46)
+    at /Users/thami/AngularProjects/ProOne/BurgTent/node_modules/bcryptjs/dist/bcrypt.js:223:17
+    at new Promise (<anonymous>)
+    at Object.bcrypt.hash (/Users/thami/AngularProjects/ProOne/BurgTent/node_modules/bcryptjs/dist/bcrypt.js:222:20)
+    at /Users/thami/AngularProjects/ProOne/BurgTent/server/server.js:48:38
+    at Layer.handle [as handle_request] (/Users/thami/AngularProjects/ProOne/BurgTent/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/thami/AngularProjects/ProOne/BurgTent/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/thami/AngularProjects/ProOne/BurgTent/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/thami/AngularProjects/ProOne/BurgTent/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/thami/AngularProjects/ProOne/BurgTent/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/thami/AngularProjects/ProOne/BurgTent/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/thami/AngularProjects/ProOne/BurgTent/node_modules/express/lib/router/index.js:275:10)
+    at urlencodedParser (/Users/thami/AngularProjects/ProOne/BurgTent/node_modules/body-parser/lib/types/urlencoded.js:82:7)
+    at Layer.handle [as handle_request] (/Users/thami/AngularProjects/ProOne/BurgTent/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/thami/AngularProjects/ProOne/BurgTent/node_modules/express/lib/router/index.js:317:13)
+    at /Users/thami/AngularProjects/ProOne/BurgTent/node_modules/express/lib/router/index.js:284:7
+[2020-04-14T21:01:54.870] [ERROR] book - Error in registering Error: Illegal arguments: undefined, number
+    at _async (/Users/thami/AngularProjects/ProOne/BurgTent/node_modules/bcryptjs/dist/bcrypt.js:214:46)
+    at /Users/thami/AngularProjects/ProOne/BurgTent/node_modules/bcryptjs/dist/bcrypt.js:223:17
+    at new Promise (<anonymous>)
+    at Object.bcrypt.hash (/Users/thami/AngularProjects/ProOne/BurgTent/node_modules/bcryptjs/dist/bcrypt.js:222:20)
+    at /Users/thami/AngularProjects/ProOne/BurgTent/server/server.js:49:38
+    at Layer.handle [as handle_request] (/Users/thami/AngularProjects/ProOne/BurgTent/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/thami/AngularProjects/ProOne/BurgTent/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/thami/AngularProjects/ProOne/BurgTent/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/thami/AngularProjects/ProOne/BurgTent/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/thami/AngularProjects/ProOne/BurgTent/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/thami/AngularProjects/ProOne/BurgTent/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/thami/AngularProjects/ProOne/BurgTent/node_modules/express/lib/router/index.js:275:10)
+    at urlencodedParser (/Users/thami/AngularProjects/ProOne/BurgTent/node_modules/body-parser/lib/types/urlencoded.js:82:7)
+    at Layer.handle [as handle_request] (/Users/thami/AngularProjects/ProOne/BurgTent/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/thami/AngularProjects/ProOne/BurgTent/node_modules/express/lib/router/index.js:317:13)
+    at /Users/thami/AngularProjects/ProOne/BurgTent/node_modules/express/lib/router/index.js:284:7
+[2020-04-14T21:02:49.558] [ERROR] book - Error in registering Error: Illegal arguments: undefined, number
+    at _async (/Users/thami/AngularProjects/ProOne/BurgTent/node_modules/bcryptjs/dist/bcrypt.js:214:46)
+    at /Users/thami/AngularProjects/ProOne/BurgTent/node_modules/bcryptjs/dist/bcrypt.js:223:17
+    at new Promise (<anonymous>)
+    at Object.bcrypt.hash (/Users/thami/AngularProjects/ProOne/BurgTent/node_modules/bcryptjs/dist/bcrypt.js:222:20)
+    at /Users/thami/AngularProjects/ProOne/BurgTent/server/server.js:49:38
+    at Layer.handle [as handle_request] (/Users/thami/AngularProjects/ProOne/BurgTent/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/thami/AngularProjects/ProOne/BurgTent/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/thami/AngularProjects/ProOne/BurgTent/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/thami/AngularProjects/ProOne/BurgTent/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/thami/AngularProjects/ProOne/BurgTent/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/thami/AngularProjects/ProOne/BurgTent/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/thami/AngularProjects/ProOne/BurgTent/node_modules/express/lib/router/index.js:275:10)
+    at urlencodedParser (/Users/thami/AngularProjects/ProOne/BurgTent/node_modules/body-parser/lib/types/urlencoded.js:82:7)
+    at Layer.handle [as handle_request] (/Users/thami/AngularProjects/ProOne/BurgTent/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/thami/AngularProjects/ProOne/BurgTent/node_modules/express/lib/router/index.js:317:13)
+    at /Users/thami/AngularProjects/ProOne/BurgTent/node_modules/express/lib/router/index.js:284:7
+[2020-04-14T21:04:49.564] [ERROR] book - Error in registering Error: Illegal arguments: undefined, number
+    at _async (/Users/thami/AngularProjects/ProOne/BurgTent/node_modules/bcryptjs/dist/bcrypt.js:214:46)
+    at /Users/thami/AngularProjects/ProOne/BurgTent/node_modules/bcryptjs/dist/bcrypt.js:223:17
+    at new Promise (<anonymous>)
+    at Object.bcrypt.hash (/Users/thami/AngularProjects/ProOne/BurgTent/node_modules/bcryptjs/dist/bcrypt.js:222:20)
+    at /Users/thami/AngularProjects/ProOne/BurgTent/server/server.js:49:38
+    at Layer.handle [as handle_request] (/Users/thami/AngularProjects/ProOne/BurgTent/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/thami/AngularProjects/ProOne/BurgTent/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/thami/AngularProjects/ProOne/BurgTent/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/thami/AngularProjects/ProOne/BurgTent/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/thami/AngularProjects/ProOne/BurgTent/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/thami/AngularProjects/ProOne/BurgTent/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/thami/AngularProjects/ProOne/BurgTent/node_modules/express/lib/router/index.js:275:10)
+    at urlencodedParser (/Users/thami/AngularProjects/ProOne/BurgTent/node_modules/body-parser/lib/types/urlencoded.js:82:7)
+    at Layer.handle [as handle_request] (/Users/thami/AngularProjects/ProOne/BurgTent/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/thami/AngularProjects/ProOne/BurgTent/node_modules/express/lib/router/index.js:317:13)
+    at /Users/thami/AngularProjects/ProOne/BurgTent/node_modules/express/lib/router/index.js:284:7
+[2020-04-14T21:26:42.846] [ERROR] book - Error in registering Error: Illegal arguments: undefined, number
+    at _async (/Users/thami/AngularProjects/ProOne/BurgTent/node_modules/bcryptjs/dist/bcrypt.js:214:46)
+    at /Users/thami/AngularProjects/ProOne/BurgTent/node_modules/bcryptjs/dist/bcrypt.js:223:17
+    at new Promise (<anonymous>)
+    at Object.bcrypt.hash (/Users/thami/AngularProjects/ProOne/BurgTent/node_modules/bcryptjs/dist/bcrypt.js:222:20)
+    at /Users/thami/AngularProjects/ProOne/BurgTent/server/server.js:49:38
+    at Layer.handle [as handle_request] (/Users/thami/AngularProjects/ProOne/BurgTent/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/thami/AngularProjects/ProOne/BurgTent/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/thami/AngularProjects/ProOne/BurgTent/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/thami/AngularProjects/ProOne/BurgTent/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/thami/AngularProjects/ProOne/BurgTent/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/thami/AngularProjects/ProOne/BurgTent/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/thami/AngularProjects/ProOne/BurgTent/node_modules/express/lib/router/index.js:275:10)
+    at urlencodedParser (/Users/thami/AngularProjects/ProOne/BurgTent/node_modules/body-parser/lib/types/urlencoded.js:82:7)
+    at Layer.handle [as handle_request] (/Users/thami/AngularProjects/ProOne/BurgTent/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/thami/AngularProjects/ProOne/BurgTent/node_modules/express/lib/router/index.js:317:13)
+    at /Users/thami/AngularProjects/ProOne/BurgTent/node_modules/express/lib/router/index.js:284:7
+[2020-04-14T21:28:42.844] [ERROR] book - Error in registering Error: Illegal arguments: undefined, number
+    at _async (/Users/thami/AngularProjects/ProOne/BurgTent/node_modules/bcryptjs/dist/bcrypt.js:214:46)
+    at /Users/thami/AngularProjects/ProOne/BurgTent/node_modules/bcryptjs/dist/bcrypt.js:223:17
+    at new Promise (<anonymous>)
+    at Object.bcrypt.hash (/Users/thami/AngularProjects/ProOne/BurgTent/node_modules/bcryptjs/dist/bcrypt.js:222:20)
+    at /Users/thami/AngularProjects/ProOne/BurgTent/server/server.js:49:38
+    at Layer.handle [as handle_request] (/Users/thami/AngularProjects/ProOne/BurgTent/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/thami/AngularProjects/ProOne/BurgTent/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/thami/AngularProjects/ProOne/BurgTent/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/thami/AngularProjects/ProOne/BurgTent/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/thami/AngularProjects/ProOne/BurgTent/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/thami/AngularProjects/ProOne/BurgTent/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/thami/AngularProjects/ProOne/BurgTent/node_modules/express/lib/router/index.js:275:10)
+    at urlencodedParser (/Users/thami/AngularProjects/ProOne/BurgTent/node_modules/body-parser/lib/types/urlencoded.js:82:7)
+    at Layer.handle [as handle_request] (/Users/thami/AngularProjects/ProOne/BurgTent/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/thami/AngularProjects/ProOne/BurgTent/node_modules/express/lib/router/index.js:317:13)
+    at /Users/thami/AngularProjects/ProOne/BurgTent/node_modules/express/lib/router/index.js:284:7
+[2020-04-14T21:30:55.608] [ERROR] book - Error in registering MongoError: E11000 duplicate key error collection: file-server-mongoose.users index: email_1 dup key: { email: "tharmi14t@gmail.com" }
+    at Function.create (/Users/thami/AngularProjects/ProOne/BurgTent/node_modules/mongodb/lib/core/error.js:43:12)
+    at toError (/Users/thami/AngularProjects/ProOne/BurgTent/node_modules/mongodb/lib/utils.js:149:22)
+    at /Users/thami/AngularProjects/ProOne/BurgTent/node_modules/mongodb/lib/operations/common_functions.js:265:39
+    at handler (/Users/thami/AngularProjects/ProOne/BurgTent/node_modules/mongodb/lib/core/sdam/topology.js:913:24)
+    at /Users/thami/AngularProjects/ProOne/BurgTent/node_modules/mongodb/lib/cmap/connection_pool.js:352:13
+    at handleOperationResult (/Users/thami/AngularProjects/ProOne/BurgTent/node_modules/mongodb/lib/core/sdam/server.js:487:5)
+    at MessageStream.messageHandler (/Users/thami/AngularProjects/ProOne/BurgTent/node_modules/mongodb/lib/cmap/connection.js:270:5)
+    at MessageStream.emit (events.js:209:13)
+    at processIncomingData (/Users/thami/AngularProjects/ProOne/BurgTent/node_modules/mongodb/lib/cmap/message_stream.js:144:12)
+    at MessageStream._write (/Users/thami/AngularProjects/ProOne/BurgTent/node_modules/mongodb/lib/cmap/message_stream.js:42:5)
+    at doWrite (_stream_writable.js:428:12)
+    at writeOrBuffer (_stream_writable.js:412:5)
+    at MessageStream.Writable.write (_stream_writable.js:302:11)
+    at Socket.ondata (_stream_readable.js:722:22)
+    at Socket.emit (events.js:209:13)
+    at addChunk (_stream_readable.js:305:12) {
+  driver: true,
+  name: 'MongoError',
+  index: 0,
+  code: 11000,
+  keyPattern: { email: 1 },
+  keyValue: { email: 'tharmi14t@gmail.com' },
+  errmsg: 'E11000 duplicate key error collection: file-server-mongoose.users index: email_1 dup key: { email: "tharmi14t@gmail.com" }',
+  [Symbol(mongoErrorContextSymbol)]: {}
+}
+[2020-04-14T21:32:55.565] [ERROR] book - Error in registering MongoError: E11000 duplicate key error collection: file-server-mongoose.users index: email_1 dup key: { email: "tharmi14t@gmail.com" }
+    at Function.create (/Users/thami/AngularProjects/ProOne/BurgTent/node_modules/mongodb/lib/core/error.js:43:12)
+    at toError (/Users/thami/AngularProjects/ProOne/BurgTent/node_modules/mongodb/lib/utils.js:149:22)
+    at /Users/thami/AngularProjects/ProOne/BurgTent/node_modules/mongodb/lib/operations/common_functions.js:265:39
+    at handler (/Users/thami/AngularProjects/ProOne/BurgTent/node_modules/mongodb/lib/core/sdam/topology.js:913:24)
+    at /Users/thami/AngularProjects/ProOne/BurgTent/node_modules/mongodb/lib/cmap/connection_pool.js:352:13
+    at handleOperationResult (/Users/thami/AngularProjects/ProOne/BurgTent/node_modules/mongodb/lib/core/sdam/server.js:487:5)
+    at MessageStream.messageHandler (/Users/thami/AngularProjects/ProOne/BurgTent/node_modules/mongodb/lib/cmap/connection.js:270:5)
+    at MessageStream.emit (events.js:209:13)
+    at processIncomingData (/Users/thami/AngularProjects/ProOne/BurgTent/node_modules/mongodb/lib/cmap/message_stream.js:144:12)
+    at MessageStream._write (/Users/thami/AngularProjects/ProOne/BurgTent/node_modules/mongodb/lib/cmap/message_stream.js:42:5)
+    at doWrite (_stream_writable.js:428:12)
+    at writeOrBuffer (_stream_writable.js:412:5)
+    at MessageStream.Writable.write (_stream_writable.js:302:11)
+    at Socket.ondata (_stream_readable.js:722:22)
+    at Socket.emit (events.js:209:13)
+    at addChunk (_stream_readable.js:305:12) {
+  driver: true,
+  name: 'MongoError',
+  index: 0,
+  code: 11000,
+  keyPattern: { email: 1 },
+  keyValue: { email: 'tharmi14t@gmail.com' },
+  errmsg: 'E11000 duplicate key error collection: file-server-mongoose.users index: email_1 dup key: { email: "tharmi14t@gmail.com" }',
+  [Symbol(mongoErrorContextSymbol)]: {}
+}
+[2020-04-14T22:11:57.643] [ERROR] book - Error in registering MongoError: E11000 duplicate key error collection: file-server-mongoose.users index: email_1 dup key: { email: "tharmi14t@gmail.com" }
+    at Function.create (/Users/thami/AngularProjects/ProOne/BurgTent/node_modules/mongodb/lib/core/error.js:43:12)
+    at toError (/Users/thami/AngularProjects/ProOne/BurgTent/node_modules/mongodb/lib/utils.js:149:22)
+    at /Users/thami/AngularProjects/ProOne/BurgTent/node_modules/mongodb/lib/operations/common_functions.js:265:39
+    at handler (/Users/thami/AngularProjects/ProOne/BurgTent/node_modules/mongodb/lib/core/sdam/topology.js:913:24)
+    at /Users/thami/AngularProjects/ProOne/BurgTent/node_modules/mongodb/lib/cmap/connection_pool.js:352:13
+    at handleOperationResult (/Users/thami/AngularProjects/ProOne/BurgTent/node_modules/mongodb/lib/core/sdam/server.js:487:5)
+    at MessageStream.messageHandler (/Users/thami/AngularProjects/ProOne/BurgTent/node_modules/mongodb/lib/cmap/connection.js:270:5)
+    at MessageStream.emit (events.js:209:13)
+    at processIncomingData (/Users/thami/AngularProjects/ProOne/BurgTent/node_modules/mongodb/lib/cmap/message_stream.js:144:12)
+    at MessageStream._write (/Users/thami/AngularProjects/ProOne/BurgTent/node_modules/mongodb/lib/cmap/message_stream.js:42:5)
+    at doWrite (_stream_writable.js:428:12)
+    at writeOrBuffer (_stream_writable.js:412:5)
+    at MessageStream.Writable.write (_stream_writable.js:302:11)
+    at Socket.ondata (_stream_readable.js:722:22)
+    at Socket.emit (events.js:209:13)
+    at addChunk (_stream_readable.js:305:12) {
+  driver: true,
+  name: 'MongoError',
+  index: 0,
+  code: 11000,
+  keyPattern: { email: 1 },
+  keyValue: { email: 'tharmi14t@gmail.com' },
+  errmsg: 'E11000 duplicate key error collection: file-server-mongoose.users index: email_1 dup key: { email: "tharmi14t@gmail.com" }',
+  [Symbol(mongoErrorContextSymbol)]: {}
+}
+[2020-04-14T22:12:36.786] [ERROR] book - Error in registering MongoError: E11000 duplicate key error collection: file-server-mongoose.users index: email_1 dup key: { email: "tharmi14t@gmail.com" }
+    at Function.create (/Users/thami/AngularProjects/ProOne/BurgTent/node_modules/mongodb/lib/core/error.js:43:12)
+    at toError (/Users/thami/AngularProjects/ProOne/BurgTent/node_modules/mongodb/lib/utils.js:149:22)
+    at /Users/thami/AngularProjects/ProOne/BurgTent/node_modules/mongodb/lib/operations/common_functions.js:265:39
+    at handler (/Users/thami/AngularProjects/ProOne/BurgTent/node_modules/mongodb/lib/core/sdam/topology.js:913:24)
+    at /Users/thami/AngularProjects/ProOne/BurgTent/node_modules/mongodb/lib/cmap/connection_pool.js:352:13
+    at handleOperationResult (/Users/thami/AngularProjects/ProOne/BurgTent/node_modules/mongodb/lib/core/sdam/server.js:487:5)
+    at MessageStream.messageHandler (/Users/thami/AngularProjects/ProOne/BurgTent/node_modules/mongodb/lib/cmap/connection.js:270:5)
+    at MessageStream.emit (events.js:209:13)
+    at processIncomingData (/Users/thami/AngularProjects/ProOne/BurgTent/node_modules/mongodb/lib/cmap/message_stream.js:144:12)
+    at MessageStream._write (/Users/thami/AngularProjects/ProOne/BurgTent/node_modules/mongodb/lib/cmap/message_stream.js:42:5)
+    at doWrite (_stream_writable.js:428:12)
+    at writeOrBuffer (_stream_writable.js:412:5)
+    at MessageStream.Writable.write (_stream_writable.js:302:11)
+    at Socket.ondata (_stream_readable.js:722:22)
+    at Socket.emit (events.js:209:13)
+    at addChunk (_stream_readable.js:305:12) {
+  driver: true,
+  name: 'MongoError',
+  index: 0,
+  code: 11000,
+  keyPattern: { email: 1 },
+  keyValue: { email: 'tharmi14t@gmail.com' },
+  errmsg: 'E11000 duplicate key error collection: file-server-mongoose.users index: email_1 dup key: { email: "tharmi14t@gmail.com" }',
+  [Symbol(mongoErrorContextSymbol)]: {}
+}
+[2020-04-15T12:36:41.276] [DEBUG] book - Listening on port3000
+[2020-04-15T12:37:12.229] [DEBUG] book - Listening on port 3000
+[2020-04-15T13:08:06.364] [DEBUG] book - Listening on port 3000
+[2020-04-15T15:06:51.087] [DEBUG] book - Listening on port 3000
+[2020-04-15T15:07:27.335] [DEBUG] book - Listening on port 3000
+[2020-04-15T15:52:25.427] [ERROR] book - Error in registering MongoError: E11000 duplicate key error collection: file-server-mongoose.users index: email_1 dup key: { email: "tharmi14t@gmail.com" }
+    at Function.create (/Users/thami/AngularProjects/ProOne/BurgTent/node_modules/mongodb/lib/core/error.js:43:12)
+    at toError (/Users/thami/AngularProjects/ProOne/BurgTent/node_modules/mongodb/lib/utils.js:149:22)
+    at /Users/thami/AngularProjects/ProOne/BurgTent/node_modules/mongodb/lib/operations/common_functions.js:265:39
+    at handler (/Users/thami/AngularProjects/ProOne/BurgTent/node_modules/mongodb/lib/core/sdam/topology.js:913:24)
+    at /Users/thami/AngularProjects/ProOne/BurgTent/node_modules/mongodb/lib/cmap/connection_pool.js:352:13
+    at handleOperationResult (/Users/thami/AngularProjects/ProOne/BurgTent/node_modules/mongodb/lib/core/sdam/server.js:487:5)
+    at MessageStream.messageHandler (/Users/thami/AngularProjects/ProOne/BurgTent/node_modules/mongodb/lib/cmap/connection.js:270:5)
+    at MessageStream.emit (events.js:209:13)
+    at processIncomingData (/Users/thami/AngularProjects/ProOne/BurgTent/node_modules/mongodb/lib/cmap/message_stream.js:144:12)
+    at MessageStream._write (/Users/thami/AngularProjects/ProOne/BurgTent/node_modules/mongodb/lib/cmap/message_stream.js:42:5)
+    at doWrite (_stream_writable.js:428:12)
+    at writeOrBuffer (_stream_writable.js:412:5)
+    at MessageStream.Writable.write (_stream_writable.js:302:11)
+    at Socket.ondata (_stream_readable.js:722:22)
+    at Socket.emit (events.js:209:13)
+    at addChunk (_stream_readable.js:305:12) {
+  driver: true,
+  name: 'MongoError',
+  index: 0,
+  code: 11000,
+  keyPattern: { email: 1 },
+  keyValue: { email: 'tharmi14t@gmail.com' },
+  errmsg: 'E11000 duplicate key error collection: file-server-mongoose.users index: email_1 dup key: { email: "tharmi14t@gmail.com" }',
+  [Symbol(mongoErrorContextSymbol)]: {}
+}
+[2020-04-15T16:11:00.978] [DEBUG] book - Listening on port 3000
+[2020-04-15T16:20:26.484] [DEBUG] book - Listening on port 3000
+[2020-04-15T18:27:12.387] [ERROR] book - Error in registering MongoError: E11000 duplicate key error collection: file-server-mongoose.users index: email_1 dup key: { email: "tharmi14123t@gmail.com" }
+    at Function.create (/Users/thami/AngularProjects/ProOne/BurgTent/node_modules/mongodb/lib/core/error.js:43:12)
+    at toError (/Users/thami/AngularProjects/ProOne/BurgTent/node_modules/mongodb/lib/utils.js:149:22)
+    at /Users/thami/AngularProjects/ProOne/BurgTent/node_modules/mongodb/lib/operations/common_functions.js:265:39
+    at handler (/Users/thami/AngularProjects/ProOne/BurgTent/node_modules/mongodb/lib/core/sdam/topology.js:913:24)
+    at /Users/thami/AngularProjects/ProOne/BurgTent/node_modules/mongodb/lib/cmap/connection_pool.js:352:13
+    at handleOperationResult (/Users/thami/AngularProjects/ProOne/BurgTent/node_modules/mongodb/lib/core/sdam/server.js:487:5)
+    at MessageStream.messageHandler (/Users/thami/AngularProjects/ProOne/BurgTent/node_modules/mongodb/lib/cmap/connection.js:270:5)
+    at MessageStream.emit (events.js:209:13)
+    at processIncomingData (/Users/thami/AngularProjects/ProOne/BurgTent/node_modules/mongodb/lib/cmap/message_stream.js:144:12)
+    at MessageStream._write (/Users/thami/AngularProjects/ProOne/BurgTent/node_modules/mongodb/lib/cmap/message_stream.js:42:5)
+    at doWrite (_stream_writable.js:428:12)
+    at writeOrBuffer (_stream_writable.js:412:5)
+    at MessageStream.Writable.write (_stream_writable.js:302:11)
+    at Socket.ondata (_stream_readable.js:722:22)
+    at Socket.emit (events.js:209:13)
+    at addChunk (_stream_readable.js:305:12) {
+  driver: true,
+  name: 'MongoError',
+  index: 0,
+  code: 11000,
+  keyPattern: { email: 1 },
+  keyValue: { email: 'tharmi14123t@gmail.com' },
+  errmsg: 'E11000 duplicate key error collection: file-server-mongoose.users index: email_1 dup key: { email: "tharmi14123t@gmail.com" }',
+  [Symbol(mongoErrorContextSymbol)]: {}
+}
+[2020-04-15T18:29:18.630] [DEBUG] book - Listening on port 3000
+[2020-04-15T19:30:34.492] [ERROR] book - Error Error: Unable to login
+    at Function.userSchema.statics.findByCredentials (/Users/thami/AngularProjects/ProOne/BurgTent/server/models/user.js:36:15)
+    at async /Users/thami/AngularProjects/ProOne/BurgTent/server/app.js:64:22
+[2020-04-15T19:30:40.338] [ERROR] book - Error Error: Unable to login
+    at Function.userSchema.statics.findByCredentials (/Users/thami/AngularProjects/ProOne/BurgTent/server/models/user.js:36:15)
+    at async /Users/thami/AngularProjects/ProOne/BurgTent/server/app.js:64:22
+[2020-04-15T19:30:51.928] [ERROR] book - Error Error: Unable to login
+    at Function.userSchema.statics.findByCredentials (/Users/thami/AngularProjects/ProOne/BurgTent/server/models/user.js:36:15)
+    at async /Users/thami/AngularProjects/ProOne/BurgTent/server/app.js:64:22
+[2020-04-15T20:59:09.013] [ERROR] book - Error Error: Unable to login
+    at Function.userSchema.statics.findByCredentials (/Users/thami/AngularProjects/ProOne/BurgTent/server/models/user.js:36:15)
+    at async /Users/thami/AngularProjects/ProOne/BurgTent/server/app.js:64:22
+[2020-04-15T21:01:09.017] [ERROR] book - Error Error: Unable to login
+    at Function.userSchema.statics.findByCredentials (/Users/thami/AngularProjects/ProOne/BurgTent/server/models/user.js:36:15)
+    at async /Users/thami/AngularProjects/ProOne/BurgTent/server/app.js:64:22
+[2020-04-15T21:09:17.918] [ERROR] book - Error Error: Unable to login
+    at Function.userSchema.statics.findByCredentials (/Users/thami/AngularProjects/ProOne/BurgTent/server/models/user.js:36:15)
+    at async /Users/thami/AngularProjects/ProOne/BurgTent/server/app.js:64:22
+[2020-04-15T21:14:03.633] [ERROR] book - Error Error: Unable to login
+    at Function.userSchema.statics.findByCredentials (/Users/thami/AngularProjects/ProOne/BurgTent/server/models/user.js:36:15)
+    at async /Users/thami/AngularProjects/ProOne/BurgTent/server/app.js:64:22
+[2020-04-15T21:14:28.464] [ERROR] book - Error Error: Unable to login
+    at Function.userSchema.statics.findByCredentials (/Users/thami/AngularProjects/ProOne/BurgTent/server/models/user.js:36:15)
+    at async /Users/thami/AngularProjects/ProOne/BurgTent/server/app.js:64:22
+[2020-04-15T21:15:17.215] [DEBUG] book - Listening on port 3000
+[2020-04-15T21:15:21.080] [ERROR] book - Error Error: Unable to login
+    at Function.userSchema.statics.findByCredentials (/Users/thami/AngularProjects/ProOne/BurgTent/server/models/user.js:36:15)
+    at async /Users/thami/AngularProjects/ProOne/BurgTent/server/app.js:64:22
+[2020-04-15T21:16:17.273] [ERROR] book - Error Error: Unable to login
+    at Function.userSchema.statics.findByCredentials (/Users/thami/AngularProjects/ProOne/BurgTent/server/models/user.js:36:15)
+    at async /Users/thami/AngularProjects/ProOne/BurgTent/server/app.js:64:22
+[2020-04-15T21:17:13.626] [ERROR] book - Error Error: Unable to login
+    at Function.userSchema.statics.findByCredentials (/Users/thami/AngularProjects/ProOne/BurgTent/server/models/user.js:36:15)
+    at async /Users/thami/AngularProjects/ProOne/BurgTent/server/app.js:64:22
+[2020-04-15T21:18:00.311] [ERROR] book - Error Error: Unable to login
+    at Function.userSchema.statics.findByCredentials (/Users/thami/AngularProjects/ProOne/BurgTent/server/models/user.js:36:15)
+    at async /Users/thami/AngularProjects/ProOne/BurgTent/server/app.js:64:22
+[2020-04-15T21:25:23.859] [ERROR] book - Error Error: Unable to login
+    at Function.userSchema.statics.findByCredentials (/Users/thami/AngularProjects/ProOne/BurgTent/server/models/user.js:36:15)
+    at async /Users/thami/AngularProjects/ProOne/BurgTent/server/app.js:64:22
+[2020-04-15T22:26:17.686] [ERROR] book - Error in registering MongoError: E11000 duplicate key error collection: burg-tent.users index: email_1 dup key: { email: "tharmi14t@gmail.com" }
+    at Function.create (/Users/thami/AngularProjects/ProOne/BurgTent/node_modules/mongodb/lib/core/error.js:43:12)
+    at toError (/Users/thami/AngularProjects/ProOne/BurgTent/node_modules/mongodb/lib/utils.js:149:22)
+    at /Users/thami/AngularProjects/ProOne/BurgTent/node_modules/mongodb/lib/operations/common_functions.js:265:39
+    at handler (/Users/thami/AngularProjects/ProOne/BurgTent/node_modules/mongodb/lib/core/sdam/topology.js:913:24)
+    at /Users/thami/AngularProjects/ProOne/BurgTent/node_modules/mongodb/lib/cmap/connection_pool.js:352:13
+    at handleOperationResult (/Users/thami/AngularProjects/ProOne/BurgTent/node_modules/mongodb/lib/core/sdam/server.js:487:5)
+    at MessageStream.messageHandler (/Users/thami/AngularProjects/ProOne/BurgTent/node_modules/mongodb/lib/cmap/connection.js:270:5)
+    at MessageStream.emit (events.js:209:13)
+    at processIncomingData (/Users/thami/AngularProjects/ProOne/BurgTent/node_modules/mongodb/lib/cmap/message_stream.js:144:12)
+    at MessageStream._write (/Users/thami/AngularProjects/ProOne/BurgTent/node_modules/mongodb/lib/cmap/message_stream.js:42:5)
+    at doWrite (_stream_writable.js:428:12)
+    at writeOrBuffer (_stream_writable.js:412:5)
+    at MessageStream.Writable.write (_stream_writable.js:302:11)
+    at Socket.ondata (_stream_readable.js:722:22)
+    at Socket.emit (events.js:209:13)
+    at addChunk (_stream_readable.js:305:12) {
+  driver: true,
+  name: 'MongoError',
+  index: 0,
+  code: 11000,
+  keyPattern: { email: 1 },
+  keyValue: { email: 'tharmi14t@gmail.com' },
+  errmsg: 'E11000 duplicate key error collection: burg-tent.users index: email_1 dup key: { email: "tharmi14t@gmail.com" }',
+  [Symbol(mongoErrorContextSymbol)]: {}
+}
+[2020-04-15T22:41:08.292] [ERROR] book - Error in registering MongoError: E11000 duplicate key error collection: burg-tent.users index: email_1 dup key: { email: "tharmi14t@gmail.com" }
+    at Function.create (/Users/thami/AngularProjects/ProOne/BurgTent/node_modules/mongodb/lib/core/error.js:43:12)
+    at toError (/Users/thami/AngularProjects/ProOne/BurgTent/node_modules/mongodb/lib/utils.js:149:22)
+    at /Users/thami/AngularProjects/ProOne/BurgTent/node_modules/mongodb/lib/operations/common_functions.js:265:39
+    at handler (/Users/thami/AngularProjects/ProOne/BurgTent/node_modules/mongodb/lib/core/sdam/topology.js:913:24)
+    at /Users/thami/AngularProjects/ProOne/BurgTent/node_modules/mongodb/lib/cmap/connection_pool.js:352:13
+    at handleOperationResult (/Users/thami/AngularProjects/ProOne/BurgTent/node_modules/mongodb/lib/core/sdam/server.js:487:5)
+    at MessageStream.messageHandler (/Users/thami/AngularProjects/ProOne/BurgTent/node_modules/mongodb/lib/cmap/connection.js:270:5)
+    at MessageStream.emit (events.js:209:13)
+    at processIncomingData (/Users/thami/AngularProjects/ProOne/BurgTent/node_modules/mongodb/lib/cmap/message_stream.js:144:12)
+    at MessageStream._write (/Users/thami/AngularProjects/ProOne/BurgTent/node_modules/mongodb/lib/cmap/message_stream.js:42:5)
+    at doWrite (_stream_writable.js:428:12)
+    at writeOrBuffer (_stream_writable.js:412:5)
+    at MessageStream.Writable.write (_stream_writable.js:302:11)
+    at Socket.ondata (_stream_readable.js:722:22)
+    at Socket.emit (events.js:209:13)
+    at addChunk (_stream_readable.js:305:12) {
+  driver: true,
+  name: 'MongoError',
+  index: 0,
+  code: 11000,
+  keyPattern: { email: 1 },
+  keyValue: { email: 'tharmi14t@gmail.com' },
+  errmsg: 'E11000 duplicate key error collection: burg-tent.users index: email_1 dup key: { email: "tharmi14t@gmail.com" }',
+  [Symbol(mongoErrorContextSymbol)]: {}
+}
+[2020-04-15T22:41:28.231] [ERROR] book - Error Error: Unable to login
+    at Function.userSchema.statics.findByCredentials (/Users/thami/AngularProjects/ProOne/BurgTent/server/models/user.js:36:15)
+    at async /Users/thami/AngularProjects/ProOne/BurgTent/server/app.js:64:22
+[2020-04-15T23:03:16.283] [DEBUG] book - Listening on port 3000
+[2020-04-15T23:08:17.270] [ERROR] book - Error Error: Unable to login
+    at Function.userSchema.statics.findByCredentials (/Users/thami/AngularProjects/ProOne/BurgTent/server/models/user.js:36:15)
+    at async /Users/thami/AngularProjects/ProOne/BurgTent/server/app.js:64:22
+[2020-04-15T23:08:21.951] [ERROR] book - Error Error: Unable to login
+    at Function.userSchema.statics.findByCredentials (/Users/thami/AngularProjects/ProOne/BurgTent/server/models/user.js:36:15)
+    at async /Users/thami/AngularProjects/ProOne/BurgTent/server/app.js:64:22
+[2020-04-15T23:15:48.966] [ERROR] book - Error Error: Unable to login
+    at Function.userSchema.statics.findByCredentials (/Users/thami/AngularProjects/ProOne/BurgTent/server/models/user.js:36:15)
+    at async /Users/thami/AngularProjects/ProOne/BurgTent/server/app.js:64:22
+[2020-04-15T23:16:09.753] [ERROR] book - Error Error: Unable to login
+    at Function.userSchema.statics.findByCredentials (/Users/thami/AngularProjects/ProOne/BurgTent/server/models/user.js:36:15)
+    at async /Users/thami/AngularProjects/ProOne/BurgTent/server/app.js:64:22
+[2020-04-15T23:31:14.989] [ERROR] book - Error Error: Unable to login
+    at Function.userSchema.statics.findByCredentials (/Users/thami/AngularProjects/ProOne/BurgTent/server/models/user.js:36:15)
+    at async /Users/thami/AngularProjects/ProOne/BurgTent/server/app.js:64:22
+[2020-04-15T23:32:27.108] [ERROR] book - Error Error: Unable to login
+    at Function.userSchema.statics.findByCredentials (/Users/thami/AngularProjects/ProOne/BurgTent/server/models/user.js:36:15)
+    at async /Users/thami/AngularProjects/ProOne/BurgTent/server/app.js:64:22
+[2020-04-15T23:36:33.626] [ERROR] book - Error in registering MongoError: E11000 duplicate key error collection: burg-tent.users index: email_1 dup key: { email: "tharmi14t@gmail.com" }
+    at Function.create (/Users/thami/AngularProjects/ProOne/BurgTent/node_modules/mongodb/lib/core/error.js:43:12)
+    at toError (/Users/thami/AngularProjects/ProOne/BurgTent/node_modules/mongodb/lib/utils.js:149:22)
+    at /Users/thami/AngularProjects/ProOne/BurgTent/node_modules/mongodb/lib/operations/common_functions.js:265:39
+    at handler (/Users/thami/AngularProjects/ProOne/BurgTent/node_modules/mongodb/lib/core/sdam/topology.js:913:24)
+    at /Users/thami/AngularProjects/ProOne/BurgTent/node_modules/mongodb/lib/cmap/connection_pool.js:352:13
+    at handleOperationResult (/Users/thami/AngularProjects/ProOne/BurgTent/node_modules/mongodb/lib/core/sdam/server.js:487:5)
+    at MessageStream.messageHandler (/Users/thami/AngularProjects/ProOne/BurgTent/node_modules/mongodb/lib/cmap/connection.js:270:5)
+    at MessageStream.emit (events.js:209:13)
+    at processIncomingData (/Users/thami/AngularProjects/ProOne/BurgTent/node_modules/mongodb/lib/cmap/message_stream.js:144:12)
+    at MessageStream._write (/Users/thami/AngularProjects/ProOne/BurgTent/node_modules/mongodb/lib/cmap/message_stream.js:42:5)
+    at doWrite (_stream_writable.js:428:12)
+    at writeOrBuffer (_stream_writable.js:412:5)
+    at MessageStream.Writable.write (_stream_writable.js:302:11)
+    at Socket.ondata (_stream_readable.js:722:22)
+    at Socket.emit (events.js:209:13)
+    at addChunk (_stream_readable.js:305:12) {
+  driver: true,
+  name: 'MongoError',
+  index: 0,
+  code: 11000,
+  keyPattern: { email: 1 },
+  keyValue: { email: 'tharmi14t@gmail.com' },
+  errmsg: 'E11000 duplicate key error collection: burg-tent.users index: email_1 dup key: { email: "tharmi14t@gmail.com" }',
+  [Symbol(mongoErrorContextSymbol)]: {}
+}
+[2020-04-15T23:57:06.187] [ERROR] book - Error Error: Unable to login
+    at Function.userSchema.statics.findByCredentials (/Users/thami/AngularProjects/ProOne/BurgTent/server/models/user.js:36:15)
+    at async /Users/thami/AngularProjects/ProOne/BurgTent/server/app.js:64:22
+[2020-04-15T23:57:09.609] [ERROR] book - Error Error: Unable to login
+    at Function.userSchema.statics.findByCredentials (/Users/thami/AngularProjects/ProOne/BurgTent/server/models/user.js:36:15)
+    at async /Users/thami/AngularProjects/ProOne/BurgTent/server/app.js:64:22
+[2020-04-15T23:57:10.403] [ERROR] book - Error Error: Unable to login
+    at Function.userSchema.statics.findByCredentials (/Users/thami/AngularProjects/ProOne/BurgTent/server/models/user.js:36:15)
+    at async /Users/thami/AngularProjects/ProOne/BurgTent/server/app.js:64:22
+[2020-04-15T23:57:11.173] [ERROR] book - Error Error: Unable to login
+    at Function.userSchema.statics.findByCredentials (/Users/thami/AngularProjects/ProOne/BurgTent/server/models/user.js:36:15)
+    at async /Users/thami/AngularProjects/ProOne/BurgTent/server/app.js:64:22
+[2020-04-15T23:57:12.487] [ERROR] book - Error Error: Unable to login
+    at Function.userSchema.statics.findByCredentials (/Users/thami/AngularProjects/ProOne/BurgTent/server/models/user.js:36:15)
+    at async /Users/thami/AngularProjects/ProOne/BurgTent/server/app.js:64:22
+[2020-04-15T23:58:24.784] [ERROR] book - Error Error: Unable to login
+    at Function.userSchema.statics.findByCredentials (/Users/thami/AngularProjects/ProOne/BurgTent/server/models/user.js:36:15)
+    at async /Users/thami/AngularProjects/ProOne/BurgTent/server/app.js:64:22
+[2020-04-15T23:58:25.612] [ERROR] book - Error Error: Unable to login
+    at Function.userSchema.statics.findByCredentials (/Users/thami/AngularProjects/ProOne/BurgTent/server/models/user.js:36:15)
+    at async /Users/thami/AngularProjects/ProOne/BurgTent/server/app.js:64:22
+[2020-04-15T23:58:27.364] [ERROR] book - Error Error: Unable to login
+    at Function.userSchema.statics.findByCredentials (/Users/thami/AngularProjects/ProOne/BurgTent/server/models/user.js:36:15)
+    at async /Users/thami/AngularProjects/ProOne/BurgTent/server/app.js:64:22
+[2020-04-15T23:58:28.455] [ERROR] book - Error Error: Unable to login
+    at Function.userSchema.statics.findByCredentials (/Users/thami/AngularProjects/ProOne/BurgTent/server/models/user.js:36:15)
+    at async /Users/thami/AngularProjects/ProOne/BurgTent/server/app.js:64:22
+[2020-04-15T23:58:29.101] [ERROR] book - Error Error: Unable to login
+    at Function.userSchema.statics.findByCredentials (/Users/thami/AngularProjects/ProOne/BurgTent/server/models/user.js:36:15)
+    at async /Users/thami/AngularProjects/ProOne/BurgTent/server/app.js:64:22
+[2020-04-15T23:58:30.215] [ERROR] book - Error Error: Unable to login
+    at Function.userSchema.statics.findByCredentials (/Users/thami/AngularProjects/ProOne/BurgTent/server/models/user.js:36:15)
+    at async /Users/thami/AngularProjects/ProOne/BurgTent/server/app.js:64:22
+[2020-04-15T23:58:31.363] [ERROR] book - Error Error: Unable to login
+    at Function.userSchema.statics.findByCredentials (/Users/thami/AngularProjects/ProOne/BurgTent/server/models/user.js:36:15)
+    at async /Users/thami/AngularProjects/ProOne/BurgTent/server/app.js:64:22
+[2020-04-16T00:05:20.439] [ERROR] book - Error Error: Unable to login
+    at Function.userSchema.statics.findByCredentials (/Users/thami/AngularProjects/ProOne/BurgTent/server/models/user.js:36:15)
+    at async /Users/thami/AngularProjects/ProOne/BurgTent/server/app.js:64:22
+[2020-04-16T00:05:42.072] [ERROR] book - Error Error: Unable to login
+    at Function.userSchema.statics.findByCredentials (/Users/thami/AngularProjects/ProOne/BurgTent/server/models/user.js:36:15)
+    at async /Users/thami/AngularProjects/ProOne/BurgTent/server/app.js:64:22
+[2020-04-16T00:05:52.638] [ERROR] book - Error Error: Unable to login
+    at Function.userSchema.statics.findByCredentials (/Users/thami/AngularProjects/ProOne/BurgTent/server/models/user.js:36:15)
+    at async /Users/thami/AngularProjects/ProOne/BurgTent/server/app.js:64:22
+[2020-04-16T00:05:53.396] [ERROR] book - Error Error: Unable to login
+    at Function.userSchema.statics.findByCredentials (/Users/thami/AngularProjects/ProOne/BurgTent/server/models/user.js:36:15)
+    at async /Users/thami/AngularProjects/ProOne/BurgTent/server/app.js:64:22
+[2020-04-16T00:05:54.459] [ERROR] book - Error Error: Unable to login
+    at Function.userSchema.statics.findByCredentials (/Users/thami/AngularProjects/ProOne/BurgTent/server/models/user.js:36:15)
+    at async /Users/thami/AngularProjects/ProOne/BurgTent/server/app.js:64:22
+[2020-04-16T00:05:55.346] [ERROR] book - Error Error: Unable to login
+    at Function.userSchema.statics.findByCredentials (/Users/thami/AngularProjects/ProOne/BurgTent/server/models/user.js:36:15)
+    at async /Users/thami/AngularProjects/ProOne/BurgTent/server/app.js:64:22
+[2020-04-16T00:05:56.197] [ERROR] book - Error Error: Unable to login
+    at Function.userSchema.statics.findByCredentials (/Users/thami/AngularProjects/ProOne/BurgTent/server/models/user.js:36:15)
+    at async /Users/thami/AngularProjects/ProOne/BurgTent/server/app.js:64:22
+[2020-04-16T00:05:59.802] [ERROR] book - Error Error: Unable to login
+    at Function.userSchema.statics.findByCredentials (/Users/thami/AngularProjects/ProOne/BurgTent/server/models/user.js:36:15)
+    at async /Users/thami/AngularProjects/ProOne/BurgTent/server/app.js:64:22
+[2020-04-16T00:06:01.420] [ERROR] book - Error Error: Unable to login
+    at Function.userSchema.statics.findByCredentials (/Users/thami/AngularProjects/ProOne/BurgTent/server/models/user.js:36:15)
+    at async /Users/thami/AngularProjects/ProOne/BurgTent/server/app.js:64:22
+[2020-04-16T00:06:02.726] [ERROR] book - Error Error: Unable to login
+    at Function.userSchema.statics.findByCredentials (/Users/thami/AngularProjects/ProOne/BurgTent/server/models/user.js:36:15)
+    at async /Users/thami/AngularProjects/ProOne/BurgTent/server/app.js:64:22
+[2020-04-16T00:06:03.700] [ERROR] book - Error Error: Unable to login
+    at Function.userSchema.statics.findByCredentials (/Users/thami/AngularProjects/ProOne/BurgTent/server/models/user.js:36:15)
+    at async /Users/thami/AngularProjects/ProOne/BurgTent/server/app.js:64:22
+[2020-04-16T00:06:32.198] [ERROR] book - Error Error: Unable to login
+    at Function.userSchema.statics.findByCredentials (/Users/thami/AngularProjects/ProOne/BurgTent/server/models/user.js:36:15)
+    at async /Users/thami/AngularProjects/ProOne/BurgTent/server/app.js:64:22
+[2020-04-16T00:06:32.989] [ERROR] book - Error Error: Unable to login
+    at Function.userSchema.statics.findByCredentials (/Users/thami/AngularProjects/ProOne/BurgTent/server/models/user.js:36:15)
+    at async /Users/thami/AngularProjects/ProOne/BurgTent/server/app.js:64:22
+[2020-04-16T00:06:33.608] [ERROR] book - Error Error: Unable to login
+    at Function.userSchema.statics.findByCredentials (/Users/thami/AngularProjects/ProOne/BurgTent/server/models/user.js:36:15)
+    at async /Users/thami/AngularProjects/ProOne/BurgTent/server/app.js:64:22
+[2020-04-16T00:06:34.342] [ERROR] book - Error Error: Unable to login
+    at Function.userSchema.statics.findByCredentials (/Users/thami/AngularProjects/ProOne/BurgTent/server/models/user.js:36:15)
+    at async /Users/thami/AngularProjects/ProOne/BurgTent/server/app.js:64:22
+[2020-04-16T00:06:34.982] [ERROR] book - Error Error: Unable to login
+    at Function.userSchema.statics.findByCredentials (/Users/thami/AngularProjects/ProOne/BurgTent/server/models/user.js:36:15)
+    at async /Users/thami/AngularProjects/ProOne/BurgTent/server/app.js:64:22
+[2020-04-16T00:06:35.722] [ERROR] book - Error Error: Unable to login
+    at Function.userSchema.statics.findByCredentials (/Users/thami/AngularProjects/ProOne/BurgTent/server/models/user.js:36:15)
+    at async /Users/thami/AngularProjects/ProOne/BurgTent/server/app.js:64:22
+[2020-04-16T00:06:36.523] [ERROR] book - Error Error: Unable to login
+    at Function.userSchema.statics.findByCredentials (/Users/thami/AngularProjects/ProOne/BurgTent/server/models/user.js:36:15)
+    at async /Users/thami/AngularProjects/ProOne/BurgTent/server/app.js:64:22
+[2020-04-16T00:08:04.491] [ERROR] book - Error Error: Unable to login
+    at Function.userSchema.statics.findByCredentials (/Users/thami/AngularProjects/ProOne/BurgTent/server/models/user.js:36:15)
+    at async /Users/thami/AngularProjects/ProOne/BurgTent/server/app.js:64:22
+[2020-04-16T00:09:03.253] [ERROR] book - Error Error: Unable to login
+    at Function.userSchema.statics.findByCredentials (/Users/thami/AngularProjects/ProOne/BurgTent/server/models/user.js:36:15)
+    at async /Users/thami/AngularProjects/ProOne/BurgTent/server/app.js:64:22
+[2020-04-16T00:10:09.877] [ERROR] book - Error Error: Unable to login
+    at Function.userSchema.statics.findByCredentials (/Users/thami/AngularProjects/ProOne/BurgTent/server/models/user.js:36:15)
+    at async /Users/thami/AngularProjects/ProOne/BurgTent/server/app.js:64:22
+[2020-04-16T00:10:48.594] [ERROR] book - Error in registering MongoError: E11000 duplicate key error collection: burg-tent.users index: email_1 dup key: { email: "tharmi14t@gmail.com" }
+    at Function.create (/Users/thami/AngularProjects/ProOne/BurgTent/node_modules/mongodb/lib/core/error.js:43:12)
+    at toError (/Users/thami/AngularProjects/ProOne/BurgTent/node_modules/mongodb/lib/utils.js:149:22)
+    at /Users/thami/AngularProjects/ProOne/BurgTent/node_modules/mongodb/lib/operations/common_functions.js:265:39
+    at handler (/Users/thami/AngularProjects/ProOne/BurgTent/node_modules/mongodb/lib/core/sdam/topology.js:913:24)
+    at /Users/thami/AngularProjects/ProOne/BurgTent/node_modules/mongodb/lib/cmap/connection_pool.js:352:13
+    at handleOperationResult (/Users/thami/AngularProjects/ProOne/BurgTent/node_modules/mongodb/lib/core/sdam/server.js:487:5)
+    at MessageStream.messageHandler (/Users/thami/AngularProjects/ProOne/BurgTent/node_modules/mongodb/lib/cmap/connection.js:270:5)
+    at MessageStream.emit (events.js:209:13)
+    at processIncomingData (/Users/thami/AngularProjects/ProOne/BurgTent/node_modules/mongodb/lib/cmap/message_stream.js:144:12)
+    at MessageStream._write (/Users/thami/AngularProjects/ProOne/BurgTent/node_modules/mongodb/lib/cmap/message_stream.js:42:5)
+    at doWrite (_stream_writable.js:428:12)
+    at writeOrBuffer (_stream_writable.js:412:5)
+    at MessageStream.Writable.write (_stream_writable.js:302:11)
+    at Socket.ondata (_stream_readable.js:722:22)
+    at Socket.emit (events.js:209:13)
+    at addChunk (_stream_readable.js:305:12) {
+  driver: true,
+  name: 'MongoError',
+  index: 0,
+  code: 11000,
+  keyPattern: { email: 1 },
+  keyValue: { email: 'tharmi14t@gmail.com' },
+  errmsg: 'E11000 duplicate key error collection: burg-tent.users index: email_1 dup key: { email: "tharmi14t@gmail.com" }',
+  [Symbol(mongoErrorContextSymbol)]: {}
+}
+[2020-04-16T00:11:48.238] [ERROR] book - Error Error: Unable to login
+    at Function.userSchema.statics.findByCredentials (/Users/thami/AngularProjects/ProOne/BurgTent/server/models/user.js:36:15)
+    at async /Users/thami/AngularProjects/ProOne/BurgTent/server/app.js:64:22
+[2020-04-16T00:13:17.780] [ERROR] book - Error Error: Unable to login
+    at Function.userSchema.statics.findByCredentials (/Users/thami/AngularProjects/ProOne/BurgTent/server/models/user.js:36:15)
+    at async /Users/thami/AngularProjects/ProOne/BurgTent/server/app.js:64:22
+[2020-04-16T00:13:39.098] [ERROR] book - Error Error: Unable to login
+    at Function.userSchema.statics.findByCredentials (/Users/thami/AngularProjects/ProOne/BurgTent/server/models/user.js:36:15)
+    at async /Users/thami/AngularProjects/ProOne/BurgTent/server/app.js:64:22
+[2020-04-16T00:14:08.935] [ERROR] book - Error Error: Unable to login
+    at Function.userSchema.statics.findByCredentials (/Users/thami/AngularProjects/ProOne/BurgTent/server/models/user.js:36:15)
+    at async /Users/thami/AngularProjects/ProOne/BurgTent/server/app.js:64:22
+[2020-04-16T00:14:41.196] [ERROR] book - Error Error: Unable to login
+    at Function.userSchema.statics.findByCredentials (/Users/thami/AngularProjects/ProOne/BurgTent/server/models/user.js:36:15)
+    at async /Users/thami/AngularProjects/ProOne/BurgTent/server/app.js:64:22
+[2020-04-16T00:15:23.119] [ERROR] book - Error Error: Unable to login
+    at Function.userSchema.statics.findByCredentials (/Users/thami/AngularProjects/ProOne/BurgTent/server/models/user.js:36:15)
+    at async /Users/thami/AngularProjects/ProOne/BurgTent/server/app.js:64:22
+[2020-04-16T00:15:25.169] [ERROR] book - Error Error: Unable to login
+    at Function.userSchema.statics.findByCredentials (/Users/thami/AngularProjects/ProOne/BurgTent/server/models/user.js:36:15)
+    at async /Users/thami/AngularProjects/ProOne/BurgTent/server/app.js:64:22
+[2020-04-16T00:15:26.036] [ERROR] book - Error Error: Unable to login
+    at Function.userSchema.statics.findByCredentials (/Users/thami/AngularProjects/ProOne/BurgTent/server/models/user.js:36:15)
+    at async /Users/thami/AngularProjects/ProOne/BurgTent/server/app.js:64:22
+[2020-04-16T00:15:26.968] [ERROR] book - Error Error: Unable to login
+    at Function.userSchema.statics.findByCredentials (/Users/thami/AngularProjects/ProOne/BurgTent/server/models/user.js:36:15)
+    at async /Users/thami/AngularProjects/ProOne/BurgTent/server/app.js:64:22
+[2020-04-16T00:15:28.008] [ERROR] book - Error Error: Unable to login
+    at Function.userSchema.statics.findByCredentials (/Users/thami/AngularProjects/ProOne/BurgTent/server/models/user.js:36:15)
+    at async /Users/thami/AngularProjects/ProOne/BurgTent/server/app.js:64:22
+[2020-04-16T00:15:33.382] [ERROR] book - Error Error: Unable to login
+    at Function.userSchema.statics.findByCredentials (/Users/thami/AngularProjects/ProOne/BurgTent/server/models/user.js:36:15)
+    at async /Users/thami/AngularProjects/ProOne/BurgTent/server/app.js:64:22
+[2020-04-16T00:19:15.258] [ERROR] book - Error Error: Unable to login
+    at Function.userSchema.statics.findByCredentials (/Users/thami/AngularProjects/ProOne/BurgTent/server/models/user.js:36:15)
+    at async /Users/thami/AngularProjects/ProOne/BurgTent/server/app.js:64:22
+[2020-04-16T00:22:38.473] [ERROR] book - Error Error: Unable to login
+    at Function.userSchema.statics.findByCredentials (/Users/thami/AngularProjects/ProOne/BurgTent/server/models/user.js:36:15)
+    at async /Users/thami/AngularProjects/ProOne/BurgTent/server/app.js:64:22
+[2020-04-16T00:26:27.339] [ERROR] book - Error Error: Unable to login
+    at Function.userSchema.statics.findByCredentials (/Users/thami/AngularProjects/ProOne/BurgTent/server/models/user.js:36:15)
+    at async /Users/thami/AngularProjects/ProOne/BurgTent/server/app.js:64:22
