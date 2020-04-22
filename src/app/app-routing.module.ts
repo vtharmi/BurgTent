@@ -26,17 +26,17 @@ const appRoutes: Routes = [
           {
             path: 'new',
             component: RecipeEditComponent,
-            // canActivate: [AuthGuard]
+            canActivate: [AuthGuard]
         },
           {
               path: ':id',
               component: RecipeDetailComponent,
-            //   canActivate: [AuthGuard]
+              canActivate: [AuthGuard]
           },
           {
               path: ':id/edit',
               component: RecipeEditComponent,
-            //   canActivate: [AuthGuard]
+              canActivate: [AuthGuard]
           }
       ]
     },
