@@ -1,6 +1,7 @@
 <div style="margin-top: 53px;">
   <div class="col-sm-12">
     <mat-card>
+      <!-- <mat-spinner *ngIf="isLoading"></mat-spinner> -->
       <mat-card-header>
         <mat-card-title style="font-size: xx-large;">{{recipe.name}}</mat-card-title>
       </mat-card-header>
@@ -19,10 +20,10 @@
         <button mat-button style="border-radius: 4px; background-color: rgb(36, 1, 1); color: white;" (click)="onAddToShoppingList()" >
           To Shopping List
         </button>
-        <button mat-button style="border-radius: 4px; background-color: rgb(36, 1, 1); color: white;" (click)="onEdit()">
+        <button mat-button style="border-radius: 4px; background-color: rgb(36, 1, 1); color: white;" (click)="onEdit()" *ngIf="userIsAuthenticated && userId === recipe.creator">
           Edit
         </button>
-        <button mat-button style="border-radius: 4px; background-color: rgb(36, 1, 1); color: white;" (click)="onDeleteRecipe()">
+        <button mat-button style="border-radius: 4px; background-color: rgb(36, 1, 1); color: white;" (click)="onDeleteRecipe(recipe.id)" *ngIf="userIsAuthenticated && userId === recipe.creator">
           Delete
         </button>
       </mat-card-actions>

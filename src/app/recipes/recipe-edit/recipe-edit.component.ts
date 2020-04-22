@@ -10,16 +10,21 @@ import { Recipe } from '../recipe.model';
   styleUrls: ['./recipe-edit.component.scss']
 })
 export class RecipeEditComponent implements OnInit {
-
+  isLoading = false;
   id: number;
   editMode = false;
   recipeEditForm: FormGroup;
-
+  private recipeId: string;
+  private creator_id: string;
   constructor(private route: ActivatedRoute, private fb: FormBuilder, private recipesService: RecipesService, private router: Router) { }
 
   ngOnInit() {
     this.route.params.subscribe(
       (params: Params) => {
+        // if(params.has(this.recipeId)) {
+        //   this.editMode = true
+        //   this.recipeId = params.get("recipeId")
+        // }
         this.id = +params['id'];
         this.editMode = params['id'] != null;
         this.initForm();
@@ -41,6 +46,7 @@ export class RecipeEditComponent implements OnInit {
 
     if(this.editMode){
       const recipe = this.recipesService.getRecipe(this.id);
+      // console.log("in eit mode", recipe)
       recipeName = recipe.name;
       recipeImagePath = recipe.imagePath;
       recipeDescription = recipe.description;
@@ -54,6 +60,8 @@ export class RecipeEditComponent implements OnInit {
             this.buildIngredients(ingredient.name, ingredient.amount)
           );
         }
+        this.recipeId = recipe.id;
+        this.creator_id = recipe.creator;
       }
     }
 
@@ -80,9 +88,18 @@ export class RecipeEditComponent implements OnInit {
   }
 
   onSubmit() {
+    this.isLoading = true;
 
     if(this.editMode){
-      this.recipesService.updateRecipe(this.id, this.recipeEditForm.value);
+      const newRecipe = {
+        id: this.recipeId,
+        name: this.recipeEditForm.value.name,
+        description: this.recipeEditForm.value.description,
+        imagePath: this.recipeEditForm.value.imagePath,
+        ingredients: this.recipeEditForm.value.ingredients,
+        creator: this.creator_id
+      }
+      this.recipesService.updateRecipe(this.id, newRecipe);
     }
     else{
       this.recipesService.addRecipe(this.recipeEditForm.value);

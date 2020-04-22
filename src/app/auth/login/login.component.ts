@@ -11,6 +11,7 @@ import { Subscription } from 'rxjs';
 })
 export class LoginComponent implements OnInit, OnDestroy {
   isLoading = false;
+  invalidLogin = false;
   private authStatusSubcription: Subscription;
   emailMessage: string = '';
   email: string = '';
@@ -51,6 +52,10 @@ export class LoginComponent implements OnInit, OnDestroy {
     this.isLoading = true;
 
     this.authService.login(this.loginForm.value.email, this.loginForm.value.password)
+    this.invalidLogin = !this.authService.getIsAuth();
+    if(this.invalidLogin === true) {
+      this.loginForm.reset();
+    }
   }
   setMessage(c: AbstractControl): void {
     this.emailMessage = '';

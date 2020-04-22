@@ -32,6 +32,7 @@ export class SignUpComponent implements OnInit, OnDestroy {
   signUpForm: FormGroup;
   emailMessage: string;
   passwordMessage: string;
+  invalidSignUp = false;
 
   private validationMessageForEmail = {
     required: 'Please enter your email address.',
@@ -101,12 +102,14 @@ export class SignUpComponent implements OnInit, OnDestroy {
 
   submit() {
     this.isLoading = true
-
-    console.log("valur is", this.signUpForm.value)    
     const email =  this.signUpForm.value['email'];
     const password =  this.signUpForm.value['passwordGroup'].password;
     
     this.authService.signUp(email, password);
+    this.invalidSignUp = !this.authService.getIsAuth();
+    if(this.invalidSignUp === true){
+      this.signUpForm.reset();
+    }
   }
 
   ngOnDestroy() {

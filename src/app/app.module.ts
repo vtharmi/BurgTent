@@ -18,11 +18,13 @@ import { AppRoutingModule } from '../app/app-routing.module';
 import { RecipeStartComponent } from './recipes/recipe-start/recipe-start.component';
 import { RecipeEditComponent } from './recipes/recipe-edit/recipe-edit.component';
 import { RecipesService } from './recipes/recipes.service';
-import { HttpClientModule } from '@angular/common/http';
+import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
 import { DataStorageService } from './shared/data-storage.service';
 import { SignUpComponent } from './auth/sign-up/sign-up.component';
 import { LoginComponent } from './auth/login/login.component';
 import { AuthService } from './auth/auth.service';
+import { AuthInterceptor } from './auth/auth-interceptor';
+import { ErrorInterceptor } from './error-interceptor';
 
 
 @NgModule({
@@ -50,7 +52,13 @@ import { AuthService } from './auth/auth.service';
     AppRoutingModule,
     HttpClientModule
     ],
-  providers: [ShoppingListService, RecipesService, DataStorageService, AuthService],
+  providers: [
+    ShoppingListService, 
+    RecipesService, 
+    DataStorageService, 
+    AuthService, 
+    {provide: HTTP_INTERCEPTORS, useClass: AuthInterceptor, multi: true}],
+    // {provide: HTTP_INTERCEPTORS, useClass: ErrorInterceptor, multi: true}],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

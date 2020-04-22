@@ -1,5 +1,5 @@
 const http = require('http');
-const app = require('../BurgTent/server/app');
+const app = require('./server/app');
 const log4js = require('log4js');
 log4js.configure({
     appenders: { book: { type: 'file', filename: 'logs/classifier_be.log' }, out: { type: 'stdout' } },

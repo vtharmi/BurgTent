@@ -6,10 +6,10 @@ log4js.configure({
 });
 const logger = log4js.getLogger('book');
 
-const connectionUrl = 'mongodb://127.0.0.1:27017';
+// const connectionUrl = 'mongodb://127.0.0.1:27017';
 const dbName = 'burg-tent';
 
-MongoClient.connect(connectionUrl, {useNewUrlParser: true}, ( err, client) => {
+MongoClient.connect(process.env.MONGODB_URI || 'mongodb://127.0.0.1:27017', {useNewUrlParser: true}, ( err, client) => {
     if(err) {
         return logger.error('Error in connecting to Server');
     }

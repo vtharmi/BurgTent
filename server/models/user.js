@@ -29,7 +29,6 @@ userSchema.statics.findByCredentials = async (email, password) => {
     if(!user) {
         throw new Error ('Unable to login');
     }
-    console.log(password, user.password);
     const isMatch = await bcrypt.compare(password, user.password);
 
     if(!isMatch) {
@@ -39,12 +38,14 @@ userSchema.statics.findByCredentials = async (email, password) => {
  }
 userSchema.methods.generateAuthToken = async function() {
     const user = this;
-    console.log(user);
-    const token = jwt.sign( {_id: user._id.toString()}, 'thisissecrete', {expiresIn: "1h"});
+    const token = jwt.sign( {email: user.email, _id: user._id.toString()}, 'thisissecrete', {expiresIn: "1h"});
 
     user.tokens = user.tokens.concat ( {token} );
     await user.save(); 
-    return token;
+    return {
+        token: token,
+        userId: user._id
+    };
 }
 
 userSchema.methods.toJSON = function() {

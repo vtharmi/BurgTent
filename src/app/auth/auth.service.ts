@@ -11,11 +11,15 @@ export class AuthService {
     private token: string;
     private isAuthenticated = false;
     private authStatusListener = new Subject<boolean>();
-
+    private userId: string;
     constructor(private http: HttpClient, private router: Router) { }
 
     getToken() {
         return this.token;
+    }
+
+    getUserId() {
+        return this.userId;
     }
 
     getAuthStatusListener() {
@@ -40,13 +44,14 @@ export class AuthService {
                 }
             }, error => {
                 this.authStatusListener.next(false);
+
             }
         );
     }
 
     login(email: string, password: string) {
         const authData: AuthData = { email: email, password: password };
-        this.http.post<{ token: string }>('http://127.0.0.1:3000/users/login', authData).subscribe(
+        this.http.post<{ token: string, userId: string }>('http://127.0.0.1:3000/users/login', authData).subscribe(
             (response) => {
                 const token = response.token;
                 this.token = token;
@@ -54,6 +59,7 @@ export class AuthService {
                 if (token) {
                     this.router.navigate(['/']);
                     this.isAuthenticated = true;
+                    this.userId = response.userId;
                     this.authStatusListener.next(true);
                 }
             }, error => {
@@ -65,6 +71,7 @@ export class AuthService {
         this.token = null;
         this.isAuthenticated = false;
         this.authStatusListener.next(false);
+        this.userId = null;
         this.router.navigate(['login'])
     }
 
